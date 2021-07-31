@@ -7,7 +7,7 @@
 2. **fontello-codes.css**  : Theres is only the four digits HEX codes of your fonts.
 
 3. **font-embedded.css**   : With embedded WOFF font, to avoid CORS issues in Firefox and IE9+, when fonts are hosted on the separate domain.
-- We strongly recommend to resolve this issue by `Access-Control-Allow-Origin` server headers. But if you ok with dirty hack - this file is for you. 
+- We strongly recommend to resolve this issue by `Access-Control-Allow-Origin` server headers. But if you ok with dirty hack this file is for you. 
 - Note, that data url moved to separate @font-face to avoid problems with <IE9, when string is too long.
 
 4. **fontello.css**        `recommendation code` that you can use for better browser compatibility.
@@ -38,4 +38,4 @@
 ## TUTORIALS
 [  (EN) Create custum icon font](https://youtu.be/XCt_v1JEVSs)
 
-[  (ES) descargar coleccion de iconos para nuestra interfas web](https://youtu.be/0uWvTVa8NfU?t=57)
+[  (ES) Descargar coleccion de iconos para nuestra interfas web](https://youtu.be/0uWvTVa8NfU?t=57)
