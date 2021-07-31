@@ -2,15 +2,18 @@
  
 
 ## CSS
-1. **animation.css**       : There is example to use animate anmated fonts, like the spinners.
+1. **animation.css**       : There is code for the `animated fonts`, like the spinners.
 
 2. **fontello-codes.css**  : Theres is only the four digits HEX codes of your fonts.
 
-3. **font-embedded.css**   : With embedded WOFF font, to avoid CORS issues in Firefox and IE9+, when fonts are hosted on the separate domain.
+3. **font-embedded.css**   : With embedded WOFF font, `to avoid CORS issues` in Firefox and IE9+, when fonts are hosted on the separate domain.
 - We strongly recommend to resolve this issue by `Access-Control-Allow-Origin` server headers. But if you ok with dirty hack this file is for you. 
 - Note, that data url moved to separate @font-face to avoid problems with <IE9, when string is too long.
 
-4. **fontello.css**        `recommendation code` that you can use for better browser compatibility.
+4. **fontello.css**      : `recommendation code` that you can use for better browser compatibility.
+
+5. **ie7**            : if you need IE7 support, but still don't wish to put char codes
+  directly into html, but I simply `throw it to the trash`.
 
 
 ## TXT
